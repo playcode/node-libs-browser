@@ -1,10 +1,6 @@
-# node-libs-browser
+# @playcode/node-libs-browser
 
 The node core libs for in-browser usage.
-
-NOTE: This library is deprecated and won't accept Pull Requests that include Breaking Changes or new Features. Only bugfixes are accepted.
-
-[![dependencies status](http://david-dm.org/webpack/node-libs-browser.png)](http://david-dm.org/webpack/node-libs-browser)
 
 Exports a hash [object] of absolute paths to each lib, keyed by lib names. Modules without browser replacements are `null`.
 
@@ -57,6 +53,9 @@ This will be dropped as soon as IE9 is not a typical browser target anymore.
 
 The current `punycode` implementation uses bestiejs/punycode.js@1.x because bestiejs/punycode.js@2.x requires modern JS engines that understand `const` and `let`.
 It will be removed someday since it has already been [deprecated from the node API](https://nodejs.org/api/punycode.html).
+
+### Note
+This is a fork of the deprecated package webpack/node-libs-browser.
 
 ## License
 
