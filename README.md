@@ -2,6 +2,11 @@
 
 The node core libs for in-browser usage.
 
+### Installation
+```sh
+npm run @playcode/node-libs-browser
+```
+
 Exports a hash [object] of absolute paths to each lib, keyed by lib names. Modules without browser replacements are `null`.
 
 Some modules have mocks in the `mock` directory. These are replacements with minimal functionality.
